@@ -18,22 +18,17 @@ export default function IndexPage() {
       </div>
       <div className="flex gap-4">
         <Link
-          href={siteConfig.links.docs}
-          target="_blank"
-          rel="noreferrer"
-          className={buttonVariants()}
-        >
-          Documentation
-        </Link>
-        <Link
-          target="_blank"
-          rel="noreferrer"
-          href={siteConfig.links.github}
+          href="/create-cookie"
           className={buttonVariants({ variant: "outline" })}
         >
-          GitHub
+          Go to Cookie Page
         </Link>
-        <Link href="/create-cookie">Go to Cookie Page</Link>
+        <Link
+          href="/create-cookie-edge"
+          className={buttonVariants({ variant: "outline" })}
+        >
+          Go to Cookie Page (Edge)
+        </Link>
       </div>
     </section>
   )
