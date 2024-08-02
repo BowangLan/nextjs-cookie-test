@@ -33,6 +33,7 @@ export default function IndexPage() {
         >
           GitHub
         </Link>
+        <Link href="/create-cookie">Go to Cookie Page</Link>
       </div>
     </section>
   )
